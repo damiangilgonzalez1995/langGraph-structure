@@ -1,0 +1,6 @@
+
+myenv
+.env
+*.pyc
+/data/sales_schema
+*.ipynb

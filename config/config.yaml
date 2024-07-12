@@ -1,0 +1,19 @@
+PATH_SCHEMA: data/estructura_sales.json
+PATH_SCHEMA_DB: ./data/sales_schema
+ORIGENES: ['cuando', 'quien_vende', 'a_quien_vende', 'como_se_vende', 'magnitudes', 'que_vende']
+
+SERVER_MODELS: {"FILTER_AGENT": "claude",
+              "QUERY_MAKER_AGENT": "claude"}
+
+# MODELS: {"CLEANER_AGENT": "llama3-70b-8192",
+#               "QUERY_MAKER_AGENT": "claude-3-haiku-20240307"}
+
+
+MODELS: {"FILTER_AGENT": "claude-3-5-sonnet-20240620",
+              "QUERY_MAKER_AGENT": "claude-3-5-sonnet-20240620"}
+
+MODEL_EMBEDDING: text-embedding-3-small
+
+URL_ENDPOINT: ""
+
+k: 10
